@@ -1,0 +1,1 @@
+fio --name my_fio --direct=1 --rw=randread --bs=4k --size=1G --numjobs=16 --time_based --runtime=60 --group_reporting
